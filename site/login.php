@@ -1,3 +1,28 @@
+<?php
+
+// primeiro comando da página quando se quer controlar o acesso a ela
+session_start();
+
+if (!empty($_POST)) {
+
+    //if ($_POST["email"] == "admin" && $_POST["senha"] == "admin") {
+    if ($_POST["email"] == $_POST["senha"]) {
+
+        $_SESSION["logado"] = true;
+        $_SESSION["usuario"] = $_POST["email"];
+
+        // após o login, redireciona a navegação para a página inicial do sistema!
+        header("location: index.php");
+        exit;
+
+
+    } else {
+        echo "E-mail e senha incorretos!";
+        exit;
+    }
+
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -18,7 +43,7 @@
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
             <div class="form-group"><input class="form-control" type="password" name="senha" placeholder="Senha"></div>
             <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(227,28,59);">Login</button></div>
-             <a href="home.html">Voltar</a>
+             <a href="index.php">Voltar</a>
         </form>
     </div>
 

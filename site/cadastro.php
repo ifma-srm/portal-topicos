@@ -1,0 +1,31 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="login-dark" style="background-image: url(&quot;../assets/img/images.png&quot;);width: 1700px;margin: -170px;padding: -300px;">
+        <form method="post">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><img src="../assets/img/4.png" style="width: 200px;"><input class="form-control" type="text" placeholder="Nome" name="nome"></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="password" name="senha" placeholder="Senha"><input class="form-control" type="password" name="confirmsenha" placeholder="Confirmar senha"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(227,28,59);">Login</button></div>
+            <a href="index.php">Voltar</a>
+        </form>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

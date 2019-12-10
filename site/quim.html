@@ -5,19 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Química</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/styles.min.css">
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="color: rgb(8,6,6);background-color: rgb(10,10,10);">
-        <div class="container-fluid"><a href="home.html" style="color: rgb(241,243,244);font-size: 20px;"><strong>Baka Sensei</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav mr-auto"></ul><span class="navbar-text actions"> </span></div>
-        </div>
-    </nav>
+<body class="text-center">
+    <?php include("menutopo.php");?>
     <h1 class="text-center" style="font-size: 56px;margin: 20px;">Materiais</h1>
     <div>
         <div class="container">
@@ -49,8 +44,15 @@
             </div>
         </div>
     </div>
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
 </body>
 
 </html>
