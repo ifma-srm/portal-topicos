@@ -15,7 +15,7 @@
                 <div class="page-content-wrapper">
                     <div class="container-fluid" style="width: 70px;height: 39px;"><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle"><i class="fa fa-bars" style="color: rgb(227,28,59);"></i></a></div>
                 </div>
-            </div><a class="navbar-brand" href="#" style="color: rgb(239,237,237);">Baka Sensei</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            </div><a class="navbar-brand" href="index.php" style="color: rgb(239,237,237);">Baka Sensei</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             
 
             <div

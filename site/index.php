@@ -25,7 +25,7 @@
             <div class="row justify-content-center features">
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-file-text icon" style="color: rgb(4,5,7);"></i>
-                        <h3 class="name">Língua Portuguesa</h3><a class="learn-more" href="port.html" style="color: rgb(13,14,14);">Acessar materiais »</a></div>
+                        <h3 class="name">Língua Portuguesa</h3><a class="learn-more" href="port.php" style="color: rgb(13,14,14);">Acessar materiais »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-superscript icon" style="color: rgb(7,9,10);"></i>
@@ -37,15 +37,15 @@
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-leaf icon" style="color: rgb(2,4,6);"></i>
-                        <h3 class="name">Biologia</h3><a class="learn-more" href="bio.html" style="color: rgb(6,9,13);">Acessar materiais »</a></div>
+                        <h3 class="name">Biologia</h3><a class="learn-more" href="bio.php" style="color: rgb(6,9,13);">Acessar materiais »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-flask icon" style="color: rgb(5,8,10);"></i>
-                        <h3 class="name">Química</h3><a class="learn-more" href="quim.html" style="color: rgb(2,4,6);">Acessar materiais »</a></div>
+                        <h3 class="name">Química</h3><a class="learn-more" href="quim.php" style="color: rgb(2,4,6);">Acessar materiais »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-grav icon" style="color: rgb(2,4,6);"></i>
-                        <h3 class="name">Física</h3><a class="learn-more" href="fisica.html" style="color: rgb(5,8,10);">Acessar materiais »</a></div>
+                        <h3 class="name">Física</h3><a class="learn-more" href="fisica.php" style="color: rgb(5,8,10);">Acessar materiais »</a></div>
                 </div>
             </div>
         </div>

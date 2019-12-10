@@ -18,7 +18,7 @@
     <?php include("menutopo.php");?>
     <h1 class="text-center" style="font-size: 56px;margin: 20px;">Biologia</h1>
     <div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
                     <div class="card">
